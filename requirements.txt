@@ -1,0 +1,8 @@
+# Proyek ini hanya memakai pustaka standar Python, jadi tidak ada
+# paket pihak ketiga yang perlu dipasang.
+#
+# Jika nanti menambah paket, tulis satu per baris, misalnya:
+# requests==2.32.3
+#
+# Perbarui file ini dari environment aktif dengan:
+# pip freeze > requirements.txt
