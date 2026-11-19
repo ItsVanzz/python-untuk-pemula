@@ -1,48 +1,48 @@
-# Python untuk Pemula
+# Python for Beginners
 
-Kumpulan contoh kode dan catatan belajar dasar-dasar Python. Semua contoh ada dalam satu file, `main.py`, dengan komentar berbahasa Indonesia di setiap bagian.
+A collection of code examples and study notes covering the basics of Python. All examples live in a single file, `main.py`, with comments in Indonesian at every step.
 
-## Materi
+## Topics
 
-`main.py` disusun berurutan dari dasar sampai pengenalan OOP:
+`main.py` is organized in order, from the basics to an introduction to OOP:
 
-1. Variabel dan tipe data: integer, float, string (single quote, double quote, multiline), boolean
-2. Operator: aritmatika, perbandingan dan logika (`and`, `or`, `not`)
-3. Kondisi: `if`, `elif`, `else`, dan aturan indentasi
-4. Perulangan: `for`, `while`, `break`, `continue`
-5. List: indexing, negative indexing, `append`, `insert`, `remove`, `pop`, `clear`
-6. Dictionary: membuat, mengakses, menambah, mengubah, dan menghapus item
-7. Function: parameter, `*args`, `**kwargs`, default value, return value
-8. Class dan object: constructor (`__init__`), method, dan parameter `self`
+1. Variables and data types: integer, float, string (single quote, double quote, multiline), boolean
+2. Operators: arithmetic, comparison, and logical (`and`, `or`, `not`)
+3. Conditionals: `if`, `elif`, `else`, and indentation rules
+4. Loops: `for`, `while`, `break`, `continue`
+5. Lists: indexing, negative indexing, `append`, `insert`, `remove`, `pop`, `clear`
+6. Dictionaries: create, access, add, update, and delete items
+7. Functions: parameters, `*args`, `**kwargs`, default values, return values
+8. Classes and objects: constructor (`__init__`), methods, and the `self` parameter
 
-## Struktur Proyek
+## Project Structure
 
 ```
 python-untuk-pemula/
-├── main.py          # seluruh contoh kode
-├── screenshot/      # tangkapan layar tutorial (tutorial-1.png sampai tutorial-8.png)
-├── requirements.txt # daftar dependensi (kosong, hanya pustaka standar)
+├── main.py          # all code examples
+├── screenshot/      # tutorial screenshots (tutorial-1.png to tutorial-8.png)
+├── requirements.txt # dependency list (empty, standard library only)
 ├── .gitignore
 └── README.md
 ```
 
-## Persyaratan
+## Requirements
 
-- Python 3.10 atau lebih baru. Proyek ini dikembangkan dengan Python 3.14.
-- Tidak ada paket tambahan. Lihat `requirements.txt`.
+- Python 3.10 or newer. The project was developed with Python 3.14.
+- No extra packages. See `requirements.txt`.
 
-## Cara Menjalankan
+## Getting Started
 
-Clone repositori:
+Clone the repository:
 
 ```bash
 git clone https://github.com/ItsVanzz/python-untuk-pemula.git
 cd python-untuk-pemula
 ```
 
-Buat dan aktifkan virtual environment (opsional, tetapi disarankan).
+Create and activate a virtual environment (optional, but recommended).
 
-Bash atau Zsh:
+Bash or Zsh:
 
 ```bash
 python -m venv venv
@@ -63,20 +63,20 @@ python -m venv venv
 venv\Scripts\Activate.ps1
 ```
 
-Pasang dependensi, lalu jalankan:
+Install dependencies, then run:
 
 ```bash
 pip install -r requirements.txt
 python main.py
 ```
 
-Untuk keluar dari virtual environment, jalankan `deactivate`.
+To leave the virtual environment, run `deactivate`.
 
-## Catatan
+## Notes
 
-- Beberapa baris di `main.py` sengaja dikomentari karena menghasilkan error (misalnya penulisan `true` huruf kecil atau indentasi yang salah). Hapus tanda `#` di depannya jika ingin melihat pesan error-nya.
-- Folder `venv/` dan `__pycache__/` tidak ikut di-commit. Keduanya sudah ada di `.gitignore`.
+- Some lines in `main.py` are commented out on purpose because they raise errors (for example, writing `true` in lowercase or using wrong indentation). Remove the leading `#` to see the error message.
+- The `venv/` and `__pycache__/` folders are not committed. Both are listed in `.gitignore`.
 
-## Penulis
+## Author
 
 [ItsVanzz](https://github.com/ItsVanzz)

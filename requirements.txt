@@ -1,8 +1,8 @@
-# Proyek ini hanya memakai pustaka standar Python, jadi tidak ada
-# paket pihak ketiga yang perlu dipasang.
+# This project uses only the Python standard library, so there are
+# no third-party packages to install.
 #
-# Jika nanti menambah paket, tulis satu per baris, misalnya:
+# If you add packages later, list one per line, for example:
 # requests==2.32.3
 #
-# Perbarui file ini dari environment aktif dengan:
+# Regenerate this file from the active environment with:
 # pip freeze > requirements.txt
